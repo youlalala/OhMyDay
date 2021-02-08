@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Cafe24Oneprettynight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body
+{
+  background-color: #F5F5F5;
+  font-family: 'Cafe24Oneprettynight', 'Nanum Gothic';
+}
+
+header{
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 60px;
+  }
+
+#title{
+    font-family: 'Quicksand', 'Nanum Gothic';
+    font-size: 40px;
+    text-decoration: none;
+    color:black;
+}
+
+
+nav{
+    padding: 20px;
+    margin: 0px auto;
+    width: 230px;
+}
+
+nav #nav{
+    font-size: 30px;
+    list-style: none;
+    text-align: center;
+    margin-bottom: 2em;
+    display: list-item;
+    padding: 10px;
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+#nav:hover{
+    background-color: #DCDCDC;
+  }
