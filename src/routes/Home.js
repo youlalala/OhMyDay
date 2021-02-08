@@ -11,7 +11,6 @@ function Home(){
                 OhMyDay
             </Link>
         </header>
-
         <nav>
             <Link id="nav" to= "/calendar">
                 calendar
